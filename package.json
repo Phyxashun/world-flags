@@ -1,0 +1,39 @@
+{
+  "name": "world-flags",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tailwindcss": "latest",
+    "@radix-ui/themes": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@eslint-react/eslint-plugin": "latest",
+    "@eslint/js": "latest",
+    "@tailwindcss/vite": "latest",
+    "@types/bun": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "bun": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest",
+    "node": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest"
+  }
+}

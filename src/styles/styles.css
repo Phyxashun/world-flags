@@ -1,0 +1,21 @@
+/* The Card container */
+.flag-card {
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.flag-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-4); /* Radix provides higher shadow tokens */
+}
+
+/* The Image inside the card */
+.flag-img {
+  transition: transform 0.3s ease;
+}
+
+.flag-card:hover .flag-img {
+  transform: scale(1.05);
+}
