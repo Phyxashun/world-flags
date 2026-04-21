@@ -19,3 +19,14 @@
 .flag-card:hover .flag-img {
   transform: scale(1.05);
 }
+
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 20px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
